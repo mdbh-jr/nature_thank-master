@@ -85,6 +85,8 @@ const Navbar: React.FC = () => {
                 {t(item.title.toLowerCase())}
               </Link>
             ))}
+
+            
           </div>
           <div className="pt-4 pb-3 border-t border-green-700 text-white">
             <div className="flex items-center px-5">
