@@ -8,7 +8,6 @@ export default function LocalSwitcher() {
   const router = useRouter();
   const localActive = useLocale();
   const pathname = usePathname();
-
   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = e.target.value as string;
     const path = pathname.split("/").slice(2).join("/");
