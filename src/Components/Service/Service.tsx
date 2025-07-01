@@ -25,6 +25,7 @@ const Data = [
   }
 ];
 
+
 const Service = () => {
   return (
     <div className='flex items-center justify-center'>
