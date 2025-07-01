@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn:hover {
+  background-color: #026b06 !important; /* Tailwind's red-600 */
+  border-color: #026b06 !important;
+}

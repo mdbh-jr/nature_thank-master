@@ -1,0 +1,33 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "products": "Products"
+  },
+  "HeroSection": {
+    "shop now": "Shop Now",
+    "product": "100% Natural Products",
+    "title1": "Products For The",
+    "title2": "Future",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nullam vel erat et nunc egestas congue. Aliquam erat volutpat."
+  },
+  "features": {
+    "freeDelivery": {
+      "title": "FREE AND FAST DELIVERY",
+      "description": "Free delivery for all orders over $140"
+    },
+    "natural": {
+      "title": "Natural",
+      "description": "100% Organic"
+    },
+    "moneyBack": {
+      "title": "MONEY BACK GUARANTEE",
+      "description": "We return money within 30 days"
+    }
+  }
+}
