@@ -29,8 +29,6 @@ const Navbar: React.FC = () => {
               Nature Thank
             </Link>
           </div>
-
-          {/* Desktop Menu */}
           <div className="hidden lg:block text-white">
             <div className="ml-10 flex items-baseline space-x-4">
               {NavItems.map((item) => (
@@ -44,7 +42,6 @@ const Navbar: React.FC = () => {
               ))}
             </div>
           </div>
-
           {/* Search, User, and Cart Icons */}
           <div className="hidden lg:flex items-center text-white">
             <button className="p-1 rounded-full hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-green-800 focus:ring-white">
@@ -60,7 +57,6 @@ const Navbar: React.FC = () => {
             </Badge>
           </div>
           <LanguageSwitcher />
-
           {/* Mobile menu button */}
           <div className="lg:hidden flex items-center text-white">
             <button
@@ -76,7 +72,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
-
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="lg:hidden text-white">
