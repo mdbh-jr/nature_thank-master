@@ -35,7 +35,6 @@ const Footer = () => {
             <Image src={logo} alt="Logo" className="mb-4" />
           </Col>
 
-          {/* Address Section */}
           <Col xs={24} sm={12} md={4} className="text-left">
             <h5 className="font-bold text-lg mb-4">Contact Us</h5>
             <ul className="space-y-2">
@@ -46,7 +45,6 @@ const Footer = () => {
             </ul>
           </Col>
 
-          {/* My Account Links */}
           <Col xs={24} sm={12} md={4} className="text-left">
             <h5 className="font-bold text-lg mb-4">My Account</h5>
             <ul className="space-y-2">
@@ -57,7 +55,6 @@ const Footer = () => {
               <li>Shop</li>
             </ul>
           </Col>
-
           {/* Quick Links */}
           <Col xs={24} sm={12} md={4} className="text-left">
             <h5 className="font-bold text-lg mb-4">Quick Links</h5>
@@ -79,7 +76,7 @@ const Footer = () => {
               <NtButton type="primary">Subscribe</NtButton>
             </div>
 
-            {/* Social Media Icons */}
+
             <div className="flex space-x-4 mt-4">
               <a
                 href="https://facebook.com"
